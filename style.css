@@ -35,7 +35,7 @@ body{
 .child-1,
 .child-3{
     border: 3px solid black;
-    height: 350 px;
+    height: 20em;
     margin-bottom: 5rem;
     text-align: center;
     background-color: lightyellow;
@@ -43,14 +43,14 @@ body{
 }
 .child-2{
     border: 3px solid black;
-    height: 350px;
+    height: 20em;
     margin-bottom: 5rem;
     text-align: center;
     background-color: lightyellow;
     box-shadow: 4px 4px 8px;
 }
 
-.img-1{
+.img{
     border: 5px solid gray;
     margin-top: 1.75em;
     width: 35em;
@@ -66,4 +66,72 @@ body{
 .adult-1{
     margin-top: 1.5rem;
     font-size: 1em;
+}
+
+.img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.main-header:hover{
+    transform: skew(-20deg);
+}
+
+.child-2:hover{
+    color: black;
+    background: lightblue;
+}
+.child-3:hover{
+    color: black;
+    background: lightblue;
+}
+.child-1:hover{
+    color: black;
+    background: lightblue;
+}
+
+.adult-1:hover{
+    color: black;
+    background: lightyellow;
+}
+.parent:hover .child:not(:hover){
+    opacity: 0.3;
+    transform: scale(0.7);
+    transition: all 0.3s ease-in;
+}
+
+.animation{
+    height: 2rem;
+    width: 2rem;
+    animation: test 4s infinite;
+    position: absolute;
+    
+}
+@keyframes test{
+    0%{
+    left: 50%;
+    bottom: 10%;
+    background-color: red;
+    }
+    25%{
+        left: 50%;
+        bottom: 20%;
+        background-color: blue
+    }
+    50%{
+        left: 55%;
+        bottom: 20%;
+        background-color: green
+    }
+    75%{
+        left: 55%;
+        bottom: 10%;
+        background-color: yellow
+    }
+    100%{
+        left: 50%;
+        bottom: 10%;
+        background-color: purple
+    }
 }
