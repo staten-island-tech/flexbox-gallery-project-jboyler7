@@ -72,28 +72,34 @@ body {
   -webkit-transform: scale(1.15);
   -ms-transform: scale(1.15);
   transform: scale(1.15);
+  transition: 1.5s;
 }
 
 .main-header:hover {
   transform: skew(-20deg);
+  transition: 0.75s;
 }
 
 .child-2:hover {
   color: black;
   background: lightblue;
+  transition: 1s;
 }
 .child-3:hover {
   color: black;
   background: lightblue;
+  transition: 1s;
 }
 .child-1:hover {
   color: black;
   background: lightblue;
+  transition: 1s;
 }
 
 .adult-1:hover {
   color: black;
   background: lightyellow;
+  transition: 1s;
 }
 .parent:hover .child:not(:hover) {
   opacity: 0.3;
@@ -133,3 +139,5 @@ body {
     background-color: lightyellow;
   }
 }
+
+@media;
