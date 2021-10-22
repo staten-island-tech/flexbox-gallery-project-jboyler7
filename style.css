@@ -140,4 +140,12 @@ body {
   }
 }
 
-@media;
+@media (max-width:760px) {
+  h1 {
+    font-size: 8rem;
+  }
+  .img{
+    height: ;
+    width: ;
+}
+
