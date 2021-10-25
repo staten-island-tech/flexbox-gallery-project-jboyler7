@@ -141,23 +141,25 @@ body {
 }
 
 @media (max-width:768px) {
-  h1 {
-    font-size: 8rem;
+  .adult-1 {
+    font-size: 6rem;
   }
   .img{
     height: 7rem;
-    width:5rem ;
+    width: 5rem ;
     margin-bottom: 1rem;
 }
 .main-header{
-  height:10rem ;
+  height: 13rem ;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  font-size: 5rem;
 }
 
 .adult-1{
-  color: green;
-  height: 17rem;
+  color:  black;
+  height: 13rem;
   width: 11rem;
   margin-left: auto;
   margin-right: auto;
@@ -166,7 +168,7 @@ body {
 }
 .parent{
   width: 40rem;
-  height: 40rem;
+  height: 15rem;
   margin-right: auto;
   margin-bottom: 10rem;
   margin-left: auto;
