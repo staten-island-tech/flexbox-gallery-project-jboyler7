@@ -104,7 +104,7 @@ body {
 .parent:hover .child:not(:hover) {
   opacity: 0.3;
   transform: scale(0.7);
-  transition: all 0.3s ease-in;
+  transition: all 1s ease-in;
 }
 
 .animation {
@@ -112,7 +112,7 @@ body {
   width: 16.5rem;
   animation: test 4s infinite;
   position: absolute;
-  top: 220;
+  top: 300;
   left: 10;
   font-size: 3em;
 }
@@ -140,12 +140,34 @@ body {
   }
 }
 
-@media (max-width:760px) {
+@media (max-width:768px) {
   h1 {
     font-size: 8rem;
   }
   .img{
-    height: ;
-    width: ;
+    height: 7rem;
+    width:5rem ;
+    margin-bottom: 1rem;
+}
+.main-header{
+  height:10rem ;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.adult-1{
+  color: green;
+  height: 17rem;
+  width: 11rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.25rem;
+  margin-bottom: 3rem;
+}
+.parent{
+  width: 40rem;
+  height: 40rem;
+  margin-right: auto;
+  margin-bottom: 10rem;
+  margin-left: auto;
+}
